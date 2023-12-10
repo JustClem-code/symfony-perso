@@ -1,3 +1,5 @@
+import { registerSvelteControllerComponents } from '@symfony/ux-svelte';
+import './bootstrap.js';
 /*
  * Welcome to your app's main JavaScript file!
  *
@@ -9,3 +11,5 @@
 import './styles/app.css';
 
 console.log('Webpack-encore is working');
+
+registerSvelteControllerComponents(require.context('./svelte/controllers', true, /\.svelte$/));
