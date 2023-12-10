@@ -3,8 +3,11 @@
 </script>
 
 <div>
-    <h1>Hello {name}</h1>
+    <h1 class="text-3xl font-bold underline">
+        Hello {name} !
+    </h1>
 </div>
+
 <div>
     <h2>Nouvelle App Svelte</h2>
 </div>
