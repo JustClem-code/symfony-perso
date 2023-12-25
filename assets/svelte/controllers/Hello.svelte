@@ -7,7 +7,3 @@
         Hello {name} !
     </h1>
 </div>
-
-<div>
-    <h2>Nouvelle App Svelte</h2>
-</div>
